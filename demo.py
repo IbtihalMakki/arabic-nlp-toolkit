@@ -1,12 +1,12 @@
-from arabic_nlp_toolkit.preprocessing import preprocess
+from arabic_nlp_toolkit import preprocess
 
 text = """
-أهلاً وسهلاً 😊
+السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ 😊
 
-زوروا موقعي:
+زر موقعنا:
 https://example.com
 
-#ذكاء_اصطناعي
+#الذكاء_الاصطناعي
 """
 
 print(preprocess(text))
