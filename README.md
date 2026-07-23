@@ -49,7 +49,7 @@ pip install arabic-nlp-toolkit
 # Quick Start
 
 ```python
-from arabic_nlp_toolkit import preprocess
+from arabinlp import preprocess
 
 text = """
 السَّلَامُ عَلَيْكُمْ 😊
@@ -74,7 +74,7 @@ Output
 # API Overview
 
 ```python
-from arabic_nlp_toolkit import (
+from arabinlp import (
     preprocess,
     normalize_arabic,
     tokenize,
@@ -97,7 +97,7 @@ from arabic_nlp_toolkit import (
 ## Tokenization
 
 ```python
-from arabic_nlp_toolkit import tokenize
+from arabinlp import tokenize
 
 tokenize("السلام عليكم ورحمة الله")
 ```
@@ -113,7 +113,7 @@ Output
 ## Stopword Removal
 
 ```python
-from arabic_nlp_toolkit import remove_stopwords
+from arabinlp import remove_stopwords
 
 remove_stopwords("أنا أحب تعلم الذكاء الاصطناعي")
 ```
@@ -129,7 +129,7 @@ Output
 ## Sentence Splitting
 
 ```python
-from arabic_nlp_toolkit import split_sentences
+from arabinlp import split_sentences
 
 split_sentences(
     "السلام عليكم. كيف حالك؟ أنا بخير!"
@@ -151,7 +151,7 @@ Output
 ## Word Frequency
 
 ```python
-from arabic_nlp_toolkit import word_frequency
+from arabinlp import word_frequency
 
 word_frequency(
     "الذكاء الذكاء الاصطناعي رائع"
@@ -173,7 +173,7 @@ Output
 ## Word N-Grams
 
 ```python
-from arabic_nlp_toolkit import ngrams
+from arabinlp import ngrams
 
 ngrams(
     "السلام عليكم ورحمة الله",
@@ -196,7 +196,7 @@ Output
 ## Character N-Grams
 
 ```python
-from arabic_nlp_toolkit import character_ngrams
+from arabinlp import character_ngrams
 
 character_ngrams(
     "السلام",
@@ -220,7 +220,7 @@ Output
 ## Language Detection
 
 ```python
-from arabic_nlp_toolkit import detect_language
+from arabinlp import detect_language
 
 detect_language("Hello مرحبا")
 ```
@@ -236,7 +236,7 @@ mixed
 ## Text Statistics
 
 ```python
-from arabic_nlp_toolkit import text_statistics
+from arabinlp import text_statistics
 
 text_statistics(
     "السلام عليكم. كيف حالك؟"
@@ -260,7 +260,7 @@ Output
 ## Keyword Extraction
 
 ```python
-from arabic_nlp_toolkit import extract_keywords
+from arabinlp import extract_keywords
 
 extract_keywords(
     "الذكاء الاصطناعي رائع. الذكاء يتطور بسرعة."
@@ -282,7 +282,7 @@ Output
 ## Text Similarity
 
 ```python
-from arabic_nlp_toolkit import jaccard_similarity
+from arabinlp import jaccard_similarity
 
 score = jaccard_similarity(
     "أنا أحب الذكاء الاصطناعي",
@@ -305,7 +305,7 @@ Output
 ```
 arabic-nlp-toolkit/
 
-├── arabic_nlp_toolkit/
+├── arabinlp/
 ├── tests/
 ├── .github/
 ├── README.md

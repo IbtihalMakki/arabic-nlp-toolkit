@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "arabinlp"
-version = "1.0.0"
+version = "2.0.0"
 description = "A modern Python toolkit for Arabic Natural Language Processing (NLP)."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -48,3 +48,6 @@ Issues = "https://github.com/IbtihalMakki/arabic-nlp-toolkit/issues"
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+
+[tool.setuptools.package-data]
+arabinlp = ["resources/*.txt"]

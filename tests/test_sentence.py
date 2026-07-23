@@ -1,4 +1,4 @@
-from arabic_nlp_toolkit import split_sentences
+from arabinlp import split_sentences
 
 
 def test_simple_sentences():

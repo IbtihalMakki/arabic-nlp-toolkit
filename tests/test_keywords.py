@@ -1,4 +1,4 @@
-from arabic_nlp_toolkit import extract_keywords
+from arabinlp import extract_keywords
 
 
 def test_keywords():
