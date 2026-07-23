@@ -1,4 +1,4 @@
-from arabic_nlp_toolkit import ngrams
+from arabinlp import ngrams
 
 import pytest
 

@@ -1,4 +1,4 @@
-from arabic_nlp_toolkit import detect_language
+from arabinlp import detect_language
 
 
 def test_arabic():

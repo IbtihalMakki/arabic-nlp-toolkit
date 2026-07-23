@@ -1,4 +1,4 @@
-from arabic_nlp_toolkit.cleaning import (
+from arabinlp.cleaning import (
     remove_urls,
     remove_mentions,
     remove_hashtags,

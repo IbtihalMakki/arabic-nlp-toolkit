@@ -1,4 +1,4 @@
-from arabic_nlp_toolkit import tokenize
+from arabinlp import tokenize
 
 
 def test_simple_sentence():

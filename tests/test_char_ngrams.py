@@ -1,6 +1,6 @@
 import pytest
 
-from arabic_nlp_toolkit import character_ngrams
+from arabinlp import character_ngrams
 
 
 def test_trigrams():

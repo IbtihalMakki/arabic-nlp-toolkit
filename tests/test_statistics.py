@@ -1,4 +1,4 @@
-from arabic_nlp_toolkit import text_statistics
+from arabinlp import text_statistics
 
 
 def test_statistics():

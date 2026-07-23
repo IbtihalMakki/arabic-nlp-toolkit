@@ -1,4 +1,4 @@
-from arabic_nlp_toolkit import jaccard_similarity
+from arabinlp import jaccard_similarity
 
 
 def test_identical_text():

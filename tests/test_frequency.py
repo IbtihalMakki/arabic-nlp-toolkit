@@ -1,4 +1,4 @@
-from arabic_nlp_toolkit import word_frequency
+from arabinlp import word_frequency
 
 
 def test_word_frequency():

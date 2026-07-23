@@ -1,4 +1,4 @@
-from arabic_nlp_toolkit import remove_stopwords
+from arabinlp import remove_stopwords
 
 
 def test_remove_stopwords():
