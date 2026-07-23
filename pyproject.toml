@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "arabic-nlp-toolkit"
-version = "0.2.0"
-description = "A lightweight Python toolkit for Arabic text preprocessing and normalization."
+name = "arabinlp"
+version = "1.0.0"
+description = "A modern Python toolkit for Arabic Natural Language Processing (NLP)."
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
@@ -16,20 +16,35 @@ authors = [
 
 keywords = [
     "arabic",
+    "arabic-nlp",
     "nlp",
     "text-processing",
-    "preprocessing",
+    "natural-language-processing",
     "machine-learning",
     "generative-ai"
 ]
 
 classifiers = [
-    "Programming Language :: Python :: 3",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
 ]
 
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/IbtihalMakki/arabic-nlp-toolkit"
+Repository = "https://github.com/IbtihalMakki/arabic-nlp-toolkit"
+Issues = "https://github.com/IbtihalMakki/arabic-nlp-toolkit/issues"
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
