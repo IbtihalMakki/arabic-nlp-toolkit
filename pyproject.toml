@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arabic-nlp-toolkit"
+version = "0.2.0"
+description = "A lightweight Python toolkit for Arabic text preprocessing and normalization."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+authors = [
+    {name = "Ibtihal Makki"}
+]
+
+keywords = [
+    "arabic",
+    "nlp",
+    "text-processing",
+    "preprocessing",
+    "machine-learning",
+    "generative-ai"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
