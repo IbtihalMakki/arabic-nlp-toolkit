@@ -1,12 +1,6 @@
-from arabic_nlp_toolkit import preprocess
+from arabic_nlp_toolkit import tokenize
 
-text = """
-السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ 😊
+print(tokenize.__module__)
+print(tokenize.__code__.co_filename)
 
-زر موقعنا:
-https://example.com
-
-#الذكاء_الاصطناعي
-"""
-
-print(preprocess(text))
+print(tokenize("مرحباً، كيف حالك؟"))

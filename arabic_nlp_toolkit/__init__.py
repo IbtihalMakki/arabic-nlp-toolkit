@@ -1,5 +1,6 @@
 from .preprocessing import preprocess
 from .normalization import normalize_arabic
+from .tokenization import tokenize
 
 from .cleaning import (
     remove_urls,
